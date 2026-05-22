@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Logs and build output
+*.log
+dist/
+build/
+coverage/
+
+# Coda local config/artifacts (can include local credentials or machine-specific state)
+.coda.json
+.coda-pack.json
+
+# Local/exported data files
+DailyDonationsFile/*.csv
+!DailyDonationsFile/Format.csv
